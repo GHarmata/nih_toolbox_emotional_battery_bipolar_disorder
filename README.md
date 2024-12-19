@@ -1,9 +1,10 @@
-# Modified Machine Learning Code Used in Gritter & Harmata et al. (submitted)
+# Modified Machine Learning Code Used in Gritter & Harmata et al. (2025)
 
 This repository contains the code used to conduct the machine learning random forest 
-analysis with 5-fold nested cross-validation described in the paper "Associations between NIH 
-Toolbox Emotional Battery measures and previous suicide attempt in bipolar disorder type I" 
-by Gritter & Harmata et al. (submitted).
+analysis with 5-fold nested cross-validation described in the paper "Associations between 
+NIH Toolbox Emotion Battery measures and previous suicide attempt in bipolar I disorder" 
+by Gritters & Harmata et al. (2025), PMID: 39672472.  The manuscript is available at 
+https://www.sciencedirect.com/science/article/pii/S0165032724020251?via%3Dihub#t0015
 
 ## Purpose
 
@@ -17,10 +18,9 @@ important.
 The primary analysis file is "BD_nih_toolbox_machine_learning.R".  The code relies on the 
 following packages: *nestedcv* (Lewis et al., 2023), caret (Kuhn, 2008), 
 *randomForest* (Liaw and Wiener, 2002), *randomForestExplainer* (Paluszynska et al., 
-2020), the *tidyverse* (Wickham et al., 2019), *ggprism* (Dawson, 2022), and *ggrepel* 
-(Slowikowski, 2023).  This code also relies on two additional files, 
-`"updated_functions_nih_toolbox_project.R"` and `"caret_custom_rf_v2.R".`
-
+2020), the *tidyverse* (Wickham et al., 2019), *ggprism* (Dawson, 2022), *ggrepel* 
+(Slowikowski, 2023), and *DescTools* (Signorell, 2024).  This code also relies on two 
+additional files, `"updated_functions_nih_toolbox_project.R"` and `"caret_custom_rf_v2.R".`
 
 The file `"updated_functions_nih_toolbox_project.R"` overwrites several functions from the 
 imported packages.  This was done to allow *nestedcv* and *caret* to work with 
@@ -32,7 +32,8 @@ importance. Similarly, the file `"caret_custom_rf_v2.R"` allows *caret* to work 
 ## Acknowledgements
 
 This code would not be possible without the packages it is built upon.  We thank the 
-creators of those packages for their excellent work.
+creators of those packages for their excellent work.  We also thank our study participants,
+without which our findings would not exist.
 
 The data used by this code was collected at the University of Iowa and relied on funding
 from the NIMH (R01MH111578, R01MH125838), NCATS (UL1TR002537), the Roy J. Carver 
