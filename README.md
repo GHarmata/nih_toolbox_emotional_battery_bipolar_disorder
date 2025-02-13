@@ -8,7 +8,7 @@ https://www.sciencedirect.com/science/article/pii/S0165032724020251?via%3Dihub#t
 
 ## Purpose
 
-This code was created to determine whether the NIH Toolbox Emotional Battery measures
+This code was created to determine whether the NIH Toolbox Emotion Battery measures
 (along with age and self-reported sex) would be able to classify whether a participant 
 with bipolar disorder type I had a past suicide attempt, and which variables are the most
 important.
